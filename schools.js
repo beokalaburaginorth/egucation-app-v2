@@ -257,3 +257,201 @@ const schools = [
     cluster: "HARSOOR",
     type: "HPS"
   },
+{
+    dise: "29041103802",
+    name: "GOVT LPS KASUNAIK TANDA KEROOR",
+    cluster: "HARSOOR",
+    type: "LPS"
+  },
+  {
+    dise: "29041102307",
+    name: "GOVT LPS HARASOOR TANDA",
+    cluster: "HARSOOR",
+    type: "LPS"
+  },
+  {
+    dise: "29041104302",
+    name: "GOVT LPS URDU MALAGATTI",
+    cluster: "HARSOOR",
+    type: "LPS"
+  },
+  {
+    dise: "29041102901",
+    name: "GOVT LPS KADABUR",
+    cluster: "HARSOOR",
+    type: "LPS"
+  },
+  {
+    dise: "29041102303",
+    name: "GOVT HPS URDU HARSOOR",
+    cluster: "HARSOOR",
+    type: "HPS"
+  },
+  {
+    dise: "29041102301",
+    name: "GOVT HPS HARSOOR",
+    cluster: "HARSOOR",
+    type: "HPS"
+  },
+  {
+    dise: "29041104301",
+    name: "GOVT HPS MALAGATTI",
+    cluster: "HARSOOR",
+    type: "HPS"
+  },
+  {
+    dise: "29041105202",
+    name: "GOVT HPS SARADAGI(B)",
+    cluster: "HARSOOR",
+    type: "HPS"
+  },
+  {
+    dise: "29041105203",
+    name: "GOVT HS SARADAGI(B)",
+    cluster: "HARSOOR",
+    type: "HS"
+  },
+  {
+    dise: "29041104001",
+    name: "GOVT HPS KUMASI",
+    cluster: "HARSOOR",
+    type: "HPS"
+  },
+  {
+    dise: "29041101501",
+    name: "GOVT HPS BELAMAGI",
+    cluster: "KAMALAPUR",
+    type: "HPS"
+  },
+  {
+    dise: "29041101801",
+    name: "GOVT HPS FEROZABAD",
+    cluster: "KAMALAPUR",
+    type: "HPS"
+  },
+  {
+    dise: "29041103601",
+    name: "GOVT HPS KAMALAPUR",
+    cluster: "KAMALAPUR",
+    type: "HPS"
+  },
+  {
+    dise: "29041103602",
+    name: "GHS KAMALAPUR",
+    cluster: "KAMALAPUR",
+    type: "HS"
+  },
+  {
+    dise: "29041104601",
+    name: "GOVT HPS MOTAKAPALLI",
+    cluster: "KAMALAPUR",
+    type: "HPS"
+  },
+  {
+    dise: "29041104701",
+    name: "GOVT HPS MUDABAL(B)",
+    cluster: "KAMALAPUR",
+    type: "HPS"
+  },
+  {
+    dise: "29041105801",
+    name: "GOVT HPS TAJSULTANPUR",
+    cluster: "TAJSULTANPUR",
+    type: "HPS"
+  },
+  {
+    dise: "29041105802",
+    name: "GHS TAJSULTANPUR",
+    cluster: "TAJSULTANPUR",
+    type: "HS"
+  },
+  {
+    dise: "29041105901",
+    name: "GOVT HPS TIPPANHALLI",
+    cluster: "TAJSULTANPUR",
+    type: "HPS"
+  },
+  {
+    dise: "29041106201",
+    name: "GOVT HPS UPPALGAON",
+    cluster: "TAJSULTANPUR",
+    type: "HPS"
+  },
+  {
+    dise: "29041106301",
+    name: "GOVT HPS WADI",
+    cluster: "TAJSULTANPUR",
+    type: "HPS"
+  },
+  {
+    dise: "29041106401",
+    name: "GOVT HPS YADGA",
+    cluster: "TAJSULTANPUR",
+    type: "HPS"
+  },
+  {
+    dise: "29041106601",
+    name: "GOVT HPS YELGOD",
+    cluster: "TAJSULTANPUR",
+    type: "HPS"
+  },
+  {
+    dise: "29041106701",
+    name: "GOVT HPS ZAFARPUR",
+    cluster: "TAJSULTANPUR",
+    type: "HPS"
+  },
+  {
+    dise: "29041106801",
+    name: "GOVT LPS HALLIKHED(B)",
+    cluster: "TAJSULTANPUR",
+    type: "LPS"
+  },
+  {
+    dise: "29041106901",
+    name: "GOVT LPS HOSALLI",
+    cluster: "TAJSULTANPUR",
+    type: "LPS"
+  },
+  {
+    dise: "29041107001",
+    name: "GOVT LPS KALLUR",
+    cluster: "TAJSULTANPUR",
+    type: "LPS"
+  },
+  {
+    dise: "29041107101",
+    name: "GOVT LPS KINNI SADAK",
+    cluster: "TAJSULTANPUR",
+    type: "LPS"
+  },
+  {
+    dise: "29041107301",
+    name: "GOVT LPS MADAN HIPPARGA",
+    cluster: "TAJSULTANPUR",
+    type: "LPS"
+  },
+  {
+    dise: "29041107401",
+    name: "GOVT LPS MOGHA(B)",
+    cluster: "TAJSULTANPUR",
+    type: "LPS"
+  },
+  {
+    dise: "29041107501",
+    name: "GOVT LPS NAGANHALLI",
+    cluster: "TAJSULTANPUR",
+    type: "LPS"
+  },
+  {
+    dise: "29041107601",
+    name: "GOVT LPS RAJAPUR",
+    cluster: "TAJSULTANPUR",
+    type: "LPS"
+  },
+  {
+    dise: "29041107801",
+    name: "GOVT LPS SHIVOOR",
+    cluster: "TAJSULTANPUR",
+    type: "LPS"
+  },
