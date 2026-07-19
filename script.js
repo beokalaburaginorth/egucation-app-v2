@@ -91,3 +91,6 @@ function searchKGID() {
       "<h2>Teacher Not Found</h2>";
   }
 }
+function openGoogleForm() {
+  window.open("https://forms.gle/ut8fQEWoJeJkm2mv6", "_blank");
+}
