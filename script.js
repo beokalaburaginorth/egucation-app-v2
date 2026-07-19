@@ -1,15 +1,3 @@
-const schools = [
-  {
-    name: "Government High School",
-    dise: "29010100101",
-    type: "High School"
-  },
-  {
-    name: "Government Primary School",
-    dise: "29010100102",
-    type: "Primary School"
-  }
-];
 
 const teachers = [
   {
