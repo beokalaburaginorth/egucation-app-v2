@@ -79,3 +79,34 @@ function searchKGID() {
   document.getElementById("output").innerHTML =
     `<h2>KGID Search</h2><p>You entered: ${kgid}</p>`;
 }
+
+function showSchoolDetails() {
+
+  const dise = document.getElementById("school").value;
+
+  if (dise === "") {
+    document.getElementById("schoolDetails").innerHTML = "";
+    return;
+  }
+
+  const school = schools.find(s => s.dise === dise);
+
+  if (school) {
+
+    document.getElementById("schoolDetails").innerHTML = `
+      <hr>
+      <h3>School Details</h3>
+
+      <p><b>🏫 School Name:</b> ${school.name}</p>
+
+      <p><b>🏢 Cluster:</b> ${school.cluster}</p>
+
+      <p><b>🆔 DISE Code:</b> ${school.dise}</p>
+
+      <p><b>📚 School Type:</b> ${school.type}</p>
+
+    `;
+
+  }
+
+}
