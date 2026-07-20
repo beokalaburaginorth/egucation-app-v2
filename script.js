@@ -18,7 +18,11 @@ function showSchools() {
     </select>
 
     <br><br>
-
+<input type="text"
+id="schoolSearch"
+placeholder="Search School..."
+onkeyup="filterSchools()"
+style="width:100%;padding:8px;margin-bottom:10px;">
     <label><b>Select School</b></label><br>
     <select id="school" onchange="showSchoolDetails()">
       <option value="">-- Select School --</option>
@@ -108,5 +112,22 @@ function showSchoolDetails() {
     `;
 
   }
+function filterSchools() {
+
+  const search = document.getElementById("schoolSearch").value.toUpperCase();
+  const cluster = document.getElementById("cluster").value;
+  const school = document.getElementById("school");
+
+  school.innerHTML = '<option value="">-- Select School --</option>';
+
+  schools
+    .filter(s =>
+      s.cluster === cluster &&
+      s.name.toUpperCase().includes(search)
+    )
+    .forEach(s => {
+      school.innerHTML += `<option value="${s.dise}">${s.name}</option>`;
+    });
+}
 
 }
