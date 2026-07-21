@@ -55,10 +55,12 @@ function loadSchools() {
       `<option value="${s.dise}">
         ${s.name}
       </option>`;
-document.getElementById("clusterCount").innerHTML =
-  "<b>Total Schools in Cluster :</b> " +
-  schools.filter(s => s.cluster === cluster).length;
+
     });
+
+  document.getElementById("clusterCount").innerHTML =
+    "<b>Total Schools in Cluster :</b> " +
+    schools.filter(s => s.cluster === cluster).length;
 
 }
 function filterSchools() {
