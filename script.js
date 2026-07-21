@@ -20,12 +20,7 @@ function showSchools() {
 
     <br><br>
 
-    <input
-      type="text"
-      id="schoolSearch"
-      placeholder="Search School..."
-      onkeyup="filterSchools()"
-      style="width:100%;padding:10px;">
+    
 
     <br><br>
 
