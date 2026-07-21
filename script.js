@@ -221,3 +221,19 @@ function showDownloads() {
     <p>Downloads coming soon...</p>
   `;
 }
+function showCirculars() {
+
+  document.getElementById("output").innerHTML = `
+    <h2>📢 Government Circulars</h2>
+
+    <ul>
+      <li>📄 BEO Office Circular - Coming Soon</li>
+      <li>📄 DSERT Circular - Coming Soon</li>
+      <li>📄 School Education Department Orders - Coming Soon</li>
+      <li>📄 UDISE+ Instructions - Coming Soon</li>
+    </ul>
+
+    <p><b>Note:</b> ನಂತರ ಇಲ್ಲಿ PDF links ಸೇರಿಸಬಹುದು.</p>
+  `;
+
+}
