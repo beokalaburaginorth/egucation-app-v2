@@ -21,7 +21,6 @@ function showSchools() {
     <br><br>
 
     
-
     <br><br>
 
     <label><b>Select School</b></label><br>
