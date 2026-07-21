@@ -167,7 +167,7 @@ function searchKGID() {
 
 }
 function showDashboard() {
-
+alert("Dashboard Working");
   const totalSchools = schools.length;
   const totalClusters = [...new Set(schools.map(s => s.cluster))].length;
   const lps = schools.filter(s => s.type === "LPS").length;
