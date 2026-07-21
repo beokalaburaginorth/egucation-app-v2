@@ -206,3 +206,18 @@ ${
 </table>
   `;
 }
+function showDownloads() {
+
+  document.getElementById("output").innerHTML = `
+    <h2>📥 Downloads</h2>
+
+    <ul>
+      <li><a href="#">📄 School List PDF</a></li>
+      <li><a href="#">📊 School List Excel</a></li>
+      <li><a href="#">📝 Teacher Forms</a></li>
+      <li><a href="#">📢 Government Circulars</a></li>
+    </ul>
+
+    <p>Downloads coming soon...</p>
+  `;
+}
