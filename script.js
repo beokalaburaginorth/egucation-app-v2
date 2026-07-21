@@ -33,7 +33,9 @@ function showSchools() {
     <br><br>
 
     <div id="schoolDetails"></div>
-  `;
+<hr>
+<div id="clusterCount"></div>
+`;
 
   document.getElementById("output").innerHTML = html;
 }
@@ -54,7 +56,9 @@ function loadSchools() {
       `<option value="${s.dise}">
         ${s.name}
       </option>`;
-
+document.getElementById("clusterCount").innerHTML =
+  "<b>Total Schools in Cluster :</b> " +
+  schools.filter(s => s.cluster === cluster).length;
     });
 
 }
