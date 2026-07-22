@@ -382,3 +382,41 @@ function showAdmin() {
 
   `;
 }
+function showAdmin() {
+
+document.getElementById("output").innerHTML = `
+
+<h2>🔐 Admin Panel</h2>
+
+<div class="container">
+
+<div class="card" onclick="showGalleryManager()">
+<h2>📸 Gallery Manager</h2>
+<p>Manage Photos</p>
+</div>
+
+<div class="card" onclick="showCircularManager()">
+<h2>📄 Circular Manager</h2>
+<p>Manage Circulars</p>
+</div>
+
+<div class="card" onclick="showDownloadManager()">
+<h2>📥 Download Manager</h2>
+<p>Manage Downloads</p>
+</div>
+
+<div class="card" onclick="showNewsManager()">
+<h2>📰 News Manager</h2>
+<p>Latest Updates</p>
+</div>
+
+<div class="card" onclick="showSettings()">
+<h2>⚙️ Settings</h2>
+<p>Portal Settings</p>
+</div>
+
+</div>
+
+`;
+
+}
