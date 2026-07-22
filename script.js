@@ -359,7 +359,7 @@ document.getElementById("output").innerHTML = `
 
 <div class="container">
 
-<div class="card" onclick="showGalleryManager()">
+<div class="card" onclick="galleryManager()">
 <h2>📸 Gallery Manager</h2>
 <p>Manage Photos</p>
 </div>
@@ -389,9 +389,7 @@ document.getElementById("output").innerHTML = `
 `;
 
 }
-function showGalleryManager(){
-document.getElementById("output").innerHTML="<h2>📸 Gallery Manager</h2><p>Coming Soon...</p>";
-}
+
 
 function showCircularManager(){
 document.getElementById("output").innerHTML="<h2>📄 Circular Manager</h2><p>Coming Soon...</p>";
