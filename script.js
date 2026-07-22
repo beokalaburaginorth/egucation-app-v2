@@ -128,13 +128,33 @@ function searchDISE() {
   if (school) {
 
     document.getElementById("output").innerHTML = `
-      <h2>School Details</h2>
+<div style="background:#f8f9fa;padding:20px;border-radius:10px;border:1px solid #ddd;">
 
-      <p><b>🏫 School :</b> ${school.name}</p>
-      <p><b>🏢 Cluster :</b> ${school.cluster}</p>
-      <p><b>🆔 DISE :</b> ${school.dise}</p>
-      <p><b>📚 School Type :</b> ${school.type}</p>
-    `;
+<h2>🏫 School Profile</h2>
+<hr>
+
+<p><b>🏫 School Name :</b> ${school.name}</p>
+
+<p><b>🆔 DISE Code :</b> ${school.dise}</p>
+
+<p><b>🏢 Cluster :</b> ${school.cluster}</p>
+
+<p><b>📚 School Type :</b> ${school.type}</p>
+
+<hr>
+
+<p><b>👨‍🏫 HM Name :</b> Coming Soon</p>
+
+<p><b>📞 HM Mobile :</b> Coming Soon</p>
+
+<p><b>🎓 Medium :</b> Coming Soon</p>
+
+<p><b>👨‍🎓 Total Students :</b> Coming Soon</p>
+
+<p><b>👨‍🏫 Total Teachers :</b> Coming Soon</p>
+
+</div>
+`;
 
   } else {
 
