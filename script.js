@@ -288,7 +288,7 @@ function showGallery() {
   <div class="gallery">
 
     <div class="gallery-card">
-      <img src="training.jpg.jpg" alt="Training">
+      <img src="./images/training.jpg" alt="Training" style="width:100%;height:220px;object-fit:cover;border-radius:10px;">
       <h3>Teacher Training</h3>
       <p>21-07-2026</p>
     </div>
@@ -296,5 +296,4 @@ function showGallery() {
   </div>
 
   `;
-
 }
