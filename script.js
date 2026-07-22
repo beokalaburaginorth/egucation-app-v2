@@ -420,3 +420,22 @@ document.getElementById("output").innerHTML = `
 `;
 
 }
+function showGalleryManager(){
+document.getElementById("output").innerHTML="<h2>📸 Gallery Manager</h2><p>Coming Soon...</p>";
+}
+
+function showCircularManager(){
+document.getElementById("output").innerHTML="<h2>📄 Circular Manager</h2><p>Coming Soon...</p>";
+}
+
+function showDownloadManager(){
+document.getElementById("output").innerHTML="<h2>📥 Download Manager</h2><p>Coming Soon...</p>";
+}
+
+function showNewsManager(){
+document.getElementById("output").innerHTML="<h2>📰 News Manager</h2><p>Coming Soon...</p>";
+}
+
+function showSettings(){
+document.getElementById("output").innerHTML="<h2>⚙️ Settings</h2><p>Coming Soon...</p>";
+}
