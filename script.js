@@ -281,19 +281,13 @@ function showContact() {
 }
 function showGallery() {
 
-  document.getElementById("output").innerHTML = `
+document.getElementById("output").innerHTML = `
+<h2>Photo Test</h2>
 
-  <h2>📸 Photo Gallery</h2>
+<img
+src="https://beokalaburaginorth.github.io/education-app-v2/images/training.jpg"
+style="width:400px;border:5px solid red;">
 
-  <div class="gallery">
+`;
 
-    <div class="gallery-card">
-      <img src="./images/training.jpg" alt="Training" style="width:100%;height:220px;object-fit:cover;border-radius:10px;">
-      <h3>Teacher Training</h3>
-      <p>21-07-2026</p>
-    </div>
-
-  </div>
-
-  `;
 }
