@@ -312,3 +312,35 @@ function showGallery() {
   `;
 
 }
+function showTraining() {
+  document.getElementById("output").innerHTML = `
+    <h2>🎓 Teacher Training</h2>
+    <img src="images/training.jpg" width="100%">
+    <br><br>
+    <button onclick="showGallery()">⬅ Back to Gallery</button>
+  `;
+}
+
+function showMeetings() {
+  document.getElementById("output").innerHTML = `
+    <h2>📢 Meetings</h2>
+    <p>Photos Coming Soon...</p>
+    <button onclick="showGallery()">⬅ Back to Gallery</button>
+  `;
+}
+
+function showSchoolVisit() {
+  document.getElementById("output").innerHTML = `
+    <h2>🏫 School Visits</h2>
+    <p>Photos Coming Soon...</p>
+    <button onclick="showGallery()">⬅ Back to Gallery</button>
+  `;
+}
+
+function showFestivals() {
+  document.getElementById("output").innerHTML = `
+    <h2>🇮🇳 National Festivals</h2>
+    <p>Photos Coming Soon...</p>
+    <button onclick="showGallery()">⬅ Back to Gallery</button>
+  `;
+}
