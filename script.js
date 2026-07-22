@@ -439,3 +439,39 @@ document.getElementById("output").innerHTML="<h2>📰 News Manager</h2><p>Coming
 function showSettings(){
 document.getElementById("output").innerHTML="<h2>⚙️ Settings</h2><p>Coming Soon...</p>";
 }
+function adminLogin() {
+
+document.getElementById("output").innerHTML = `
+
+<h2>🔐 Admin Login</h2>
+
+<input type="text" id="username" placeholder="Username">
+
+<br><br>
+
+<input type="password" id="password" placeholder="Password">
+
+<br><br>
+
+<button onclick="checkLogin()">LOGIN</button>
+
+`;
+
+}
+
+function checkLogin() {
+
+const user = document.getElementById("username").value.trim();
+const pass = document.getElementById("password").value;
+
+if(user === "beoadmin" && pass === "KLB2026@BEO") {
+
+showAdmin();
+
+} else {
+
+alert("❌ Wrong Username or Password");
+
+}
+
+}
