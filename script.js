@@ -416,7 +416,27 @@ document.getElementById("output").innerHTML = `
 }
 
 function showDownloadManager(){
-document.getElementById("output").innerHTML="<h2>📥 Download Manager</h2><p>Coming Soon...</p>";
+
+document.getElementById("output").innerHTML = `
+
+<h2>📥 Download Manager</h2>
+
+<input type="file" id="downloadFile">
+
+<br><br>
+
+<input type="text" id="downloadTitle" placeholder="File Title">
+
+<br><br>
+
+<button onclick="uploadDownload()">📤 Upload File</button>
+
+<hr>
+
+<div id="downloadStatus"></div>
+
+`;
+
 }
 
 function showNewsManager(){
@@ -516,5 +536,19 @@ return;
 
 document.getElementById("circularStatus").innerHTML =
 "✅ PDF Selected : <b>"+file.name+"</b><br><br>📄 Title : "+title;
+
+}
+function uploadDownload(){
+
+const file = document.getElementById("downloadFile").files[0];
+const title = document.getElementById("downloadTitle").value;
+
+if(!file){
+alert("Please Select File");
+return;
+}
+
+document.getElementById("downloadStatus").innerHTML =
+"✅ File Selected : <b>"+file.name+"</b><br><br>📄 Title : "+title;
 
 }
